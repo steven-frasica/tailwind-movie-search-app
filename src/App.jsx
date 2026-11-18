@@ -4,7 +4,7 @@ import MovieCard from "./components/MovieCard";
 import useDebounce from "./hooks/useDebounce";
 import useLocalStorage from "./hooks/useLocalStorage";
 
-const API_KEY = "fad55766";
+const API_KEY = "8ad7256b";
 
 function App() {
   const [query, setQuery] = useState("");
