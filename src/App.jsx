@@ -66,7 +66,7 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen w-full font-sans text-neutral-100 bg-linear-to-br from-red-950 via-neutral-900 to-black">
+    <div className="min-h-screen w-full font-sans text-neutral-100 bg-linear-to-br from-brand-950 via-neutral-900 to-black">
     <div className="max-w-[1180px] mx-auto px-6 py-12">
       <SearchBar
         value={query}
@@ -74,13 +74,13 @@ function App() {
       />
       <div className="flex justify-center gap-3 mb-9">
         <button
-          className="px-6 py-2.5 rounded-full border border-white/10 bg-white/10 text-neutral-100 text-md font-bold cursor-pointer transition hover:-translate-y-0.5 hover:bg-red-600 hover:border-red-600"
+          className="px-6 py-2.5 rounded-full border border-white/10 bg-white/10 text-neutral-100 text-md font-bold cursor-pointer transition hover:-translate-y-0.5 hover:bg-brand-600 hover:border-brand-600"
           onClick={() => setTab("all")}
         >
           All
         </button>
         <button
-          className="px-6 py-2.5 rounded-full border border-white/10 bg-white/10 text-neutral-100 text-md font-bold cursor-pointer transition hover:-translate-y-0.5 hover:bg-red-600 hover:border-red-600"
+          className="px-6 py-2.5 rounded-full border border-white/10 bg-white/10 text-neutral-100 text-md font-bold cursor-pointer transition hover:-translate-y-0.5 hover:bg-brand-600 hover:border-brand-600"
           onClick={() => setTab("favorites")}
         >
           Favorites
